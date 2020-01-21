@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+div#wrapper, footer {
+    margin:0px;
+    width: 1450px;
+    background-color: white;
+    padding: 20px;
+}
+
+body {
+    font-family: "Arial", "sans-serif";
+    line-height: 24px;
+}
+
+ul {
+    margin: -30px;
+    padding: 10px;
+}
+
+li {
+    background-color: dodgerblue;
+    padding: 30px;
+    padding-left: 20px;
+    border-top: 1px solid white;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+@media all and (min-width: 550px) {
+    ul {
+        background-color: dodgerblue;
+    }
+
+    li {
+        display: inline-block;
+        border: none;
+    }
+    section.naam {
+        display: block;
+        margin-left: 85%;
+    }
+
+
+    section#nieuws {
+       margin-top: 10%;
+        margin-left: 5%;
+        margin-bottom: 10%;
+    }
+    section.lijst {
+        margin-top: -56%;
+        margin-left: 65%;
+        margin-bottom: 10%;
+    }
+
+
+    footer {
+        background-color: rgb(166, 166, 166);
+        color: white;
+    }
+
+    footer a {
+        color: white;
+    }
+}

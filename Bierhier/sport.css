@@ -65,21 +65,22 @@ section.foto {
 
 
     section#nieuws {
-        width: 28%;
+        width: 27%;
         float: left;
         margin-left: 2.5%;
         margin-top: 1.5%;
 
     }
     section.volley {
-        margin-left: 100%;
-        margin-top: 8%;
+        margin-left: 99%;
+        margin-top: 2%;
+        margin-bottom: 10%;
     }
 
-    section#instrumenten {
-        width: 60%;
+    section#teksten {
+        width: 58%;
         float: right;
-        margin-right: 8%;
+        margin-right: 11.5%;
         margin-top: 0%;
     }
 section.head {
@@ -93,7 +94,7 @@ section.head {
 
     }
 
-    section.instrumenten {
+    section.teksten {
         width: 100%;
         float: right;
     }
