@@ -41,23 +41,30 @@ li a {
         display: inline-block;
         border: none;
     }
-    section.naam {
-        display: block;
-        margin-left: 85%;
+
+    section.hoofd {
+        margin-left: 77%;
+        margin-top: 5%;
     }
-
-
-    section#nieuws {
-       margin-top: 10%;
+    section.text {
+        margin-left: 63%;
+        margin-top: 1%;
+    }
+    section.concert {
+        margin-top: -47%;
+        margin-bottom: 10%;
         margin-left: 5%;
-        margin-bottom: 10%;
     }
-    section.lijst {
-        margin-top: -56%;
-        margin-left: 65%;
-        margin-bottom: 10%;
+    section.pics {
+        width: 67%;
+        margin-left: 35%;
+        margin-bottom: 1%;
     }
-
+    section.meer {
+        margin-top: -6%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
 
     footer {
         background-color: rgb(166, 166, 166);
