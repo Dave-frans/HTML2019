@@ -6,7 +6,7 @@ div#wrapper, footer {
     margin:0px;
     width: 1500px;
     background-color: white;
-    padding: 20px;
+    padding: -50px;
 }
 
 body {
@@ -15,32 +15,34 @@ body {
 }
 
 ul {
-    margin: -30px;
-    padding: 10px;
-}
-
-li {
-    background-color: dodgerblue;
-    padding: 30px;
-    padding-left: 20px;
-    border-top: 1px solid white;
-}
-
-li a {
-    color: black;
-    text-decoration: none;
-    font-weight: 700;
-}
-
-@media all and (min-width: 550px) {
-    ul {
-        background-color: dodgerblue;
-    }
+         margin: -10px;
+         padding: -7px;
+     }
 
     li {
-        display: inline-block;
-        border: none;
+        background-color: dodgerblue;
+        padding: 28px;
+        padding-left: 2px;
+        padding-right: 50px;
+
+        border-top: 1px solid white;
     }
+
+    li a {
+        color: black;
+        text-decoration: none;
+        font-weight: 700;
+    }
+
+    @media all and (min-width: 550px) {
+        ul {
+            background-color: dodgerblue;
+        }
+
+        li {
+            display: inline-block;
+            border: none;
+        }
 
     section.appel {
         width: 0%;
@@ -70,13 +72,15 @@ li a {
         margin-left: 1.5%;
     }
 
+        footer {
+            background-color: rgb(128, 128, 128);
+            color: white;
+            clear: both;
 
-    footer {
-        background-color: rgb(166, 166, 166);
-        color: white;
-    }
+        }
 
-    footer a {
-        color: white;
+        footer h3 {
+            color: white;
+
+        }
     }
-}

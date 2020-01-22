@@ -5,7 +5,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Arial", "sans-serif";
 }
 
 img {
@@ -83,7 +83,7 @@ section, footer {
 
     @media all and (min-width: 1200px) {
         div#wrapper {
-           width: 1200px;
+           width: 1530px;
             background-color: white;
 
 

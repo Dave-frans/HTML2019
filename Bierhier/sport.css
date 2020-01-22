@@ -2,21 +2,21 @@
     box-sizing: border-box;
 }
 div#wrapper, footer {
-    width: 1200px;
+    width: 1500px;
     background-color: white;
+    padding: 0px;
 
 }
 
 body {
-    margin: 0px;
-    padding: 0px;
+    margin: -0px;
+    padding: -0px;
     font-family: 'Raleway', sans-serif;
 }
 
 div#wrapper {
     background-color: white;
 }
-
 ul {
     margin: 0px;
     padding: 0px;
@@ -59,28 +59,29 @@ margin-left: 2.5%;
 }
 
 section.foto {
-    margin-left: 60%;
-    margin-top: -28.7%;
+    margin-left: 54%;
+    margin-top: -23%;
 }
 
 
     section#nieuws {
-        width: 27%;
+        width: 25%;
         float: left;
         margin-left: 2.5%;
         margin-top: 1.5%;
 
     }
     section.volley {
-        margin-left: 99%;
+        margin-left: 75%;
         margin-top: 2%;
         margin-bottom: 10%;
+        width: 1%;
     }
 
     section#teksten {
-        width: 58%;
+        width: 50%;
         float: right;
-        margin-right: 11.5%;
+        margin-right: 22%;
         margin-top: 0%;
     }
 section.head {
@@ -115,4 +116,5 @@ footer {
 
 footer h3 {
     color: white;
+}
 }

@@ -3,10 +3,13 @@
 }
 
 div#wrapper, footer {
-    margin:0px;
-    width: 1450px;
+    height: 227px;
+    width: 1500px;
     background-color: white;
-    padding: 20px;
+    padding: 0px;
+
+
+
 }
 
 body {
@@ -15,14 +18,16 @@ body {
 }
 
 ul {
-    margin: -30px;
-    padding: 10px;
+    margin: 0px;
+    padding: 0px;
 }
 
 li {
     background-color: dodgerblue;
     padding: 30px;
-    padding-left: 20px;
+    padding-left: 30px;
+    margin-left: -1%;
+
     border-top: 1px solid white;
 }
 
@@ -34,13 +39,16 @@ li a {
 
 @media all and (min-width: 550px) {
     ul {
-        background-color: dodgerblue;
+        background-color:dodgerblue;
+        margin-top: -1%;
+        margin-right: -6%;
     }
 
     li {
         display: inline-block;
         border: none;
     }
+}
 
     section.hoofd {
         margin-left: 77%;
@@ -66,12 +74,13 @@ li a {
         margin-bottom: 5%;
     }
 
-    footer {
-        background-color: rgb(166, 166, 166);
-        color: white;
-    }
-
-    footer a {
-        color: white;
-    }
+footer {
+    background-color: rgb(128, 128, 128);
+    color: white;
+    clear: both;
 }
+
+footer h3 {
+    color: white;
+}
+
