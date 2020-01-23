@@ -52,13 +52,29 @@ section, footer {
 
 @media all and (min-width: 550px) {
     section#nieuws {
-        width: 40%;
+        width: 30%;
         float: left;
+    }
+    section.ok {
+        width: 25%;
+        float: left;
+        margin-left: -30%;
+        margin-top: 22%;
+    }
+
+    section.oke {
+        width: 50%;
+        float: right;
+        margin-left: 70%;
+        margin-right: -15%;
+        margin-top: -48%;
     }
 
     section#instrumenten {
-        width: 60%;
+        width: 55%;
         float: right;
+        margin-right: 12%;
+        margin-top: 4%;
     }
 }
 
@@ -69,7 +85,7 @@ section, footer {
     }
 
     section#instrumenten {
-        width: 70%;
+        width: 55%;
         float: right;
     }
 
@@ -81,9 +97,10 @@ section, footer {
     }
 
 
+
     @media all and (min-width: 1200px) {
         div#wrapper {
-           width: 1530px;
+           width: 1518px;
             background-color: white;
 
 
@@ -100,4 +117,7 @@ section, footer {
     footer h3 {
         color: white;
     }
+section.end {
+    margin-left: 40%;
+}
 }
