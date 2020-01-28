@@ -14,6 +14,7 @@ div#wrapper {
 
 header {
     background-color: rgb(192, 240, 233);
+    text-align: center;
 }
 
 #logo {
@@ -76,20 +77,21 @@ section, footer {
 
 @media all and (min-width: 920px) {
     section#nieuws {
-        width: 30%;
+        width: 20%;
         float: left;
     }
 
     section#instrumenten {
-        width: 70%;
+        width: 80%;
         float: right;
     }
 }
 
 article {
     display: inline-block;
-    width: 45%;
+    width: 48%;
     margin-right: 20px;
+    text-align: center;
 }
 
 article:nth-child(even) {
@@ -99,6 +101,7 @@ article:nth-child(even) {
 @media all and (min-width: 1200px) {
     div#wrapper {
         width: 1200px;
+        margin: auto;
     }
 }
 
